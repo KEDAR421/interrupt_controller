@@ -1,18 +1,4 @@
-/******************************************************************************
-*
-*  Filename    :    intrCntrl_tb.v
-*
-*  Description :    Testbench for the interrupt controller. Currently supports
-                    polling and custom priority mode.
-*
-*  Author      :    Aditya Shevade
-*                   <aditya.shevade@gmail.com>
-*  
-*  Created     :    12/04/2011
-*       
-******************************************************************************
-*/
-
+`timescale 1ns / 1ps
 module INTR_CNTRL_TB;
 
     reg             clk_in;         // Clock
