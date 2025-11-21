@@ -1,35 +1,4 @@
-`timescale 1ns / 1ps
-
-/*
-******************************************************************************
-*
-*  Filename     :   intrCntrl.v
-*
-*  Description  :   Simple programmable interrupt controller module. It has 8 inputs
-*                   and supports polling mode and a custom priority mode. Please
-*                   refer to the README file for more information.
-*
-*  Author       :   Aditya Shevade
-*                   <aditya.shevade@gmail.com>
-*
-*  License      :   This program is free software: you can redistribute it and/or modify
-*                   it under the terms of the GNU General Public License as published by
-*                   the Free Software Foundation, either version 3 of the License, or
-*                   (at your option) any later version.
-*
-*                   This program is distributed in the hope that it will be useful,
-*                   but WITHOUT ANY WARRANTY; without even the implied warranty of
-*                   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-*                   GNU General Public License for more details.
-*
-*                   You should have received a copy of the GNU General Public License
-*                   along with this program.  If not, see <http://www.gnu.org/licenses/>.
-*  
-*  Created      :   07/20/2011
-*
-******************************************************************************
-*/
- 
+`timescale 1ns / 1ps 
 module INTR_CNTRL (
         input   wire            clk_in,     // Clock
         input   wire            rst_in,     // Reset
